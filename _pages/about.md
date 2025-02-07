@@ -20,34 +20,33 @@ Projects Led and Participated In
 5. Yantai Major Innovation Project: Multimodal Data and Mobile Application AI Security Monitoring Platform for Cyberspace (Ongoing), Project Lead.
 6. Yantai Science and Technology Development Plan: Research and Development of Key Technologies for Human-Machine Collaboration in Industrial Internet Scenarios Driven by Intelligent Vision (Ongoing), Principal Investigator.
 
-Getting started
+Representative Papers
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+**Representative Publications**  
 
-Site-wide configuration
+1. Yixian Wang, Zhaowei Liu*, Jindong Xu, Weiqing Yan. **Heterogeneous Network Representation Learning Approach for Ethereum Identity Identification** [J]. *IEEE Transactions on Computational Social Systems*, 2023, 10(3): 890-899. (CAS Category II, Impact Factor: 4.5, Nominated for the *Andrew P. Sage Best Transactions Paper Award*) 2. Zhaowei Liu, Dong Yang, Yingjie Wang, Mingjie Lu, Ranran Li. **EGNN: Graph Structure Learning based on Evolutionary Computation Helps More in Graph Neural Networks** [J]. *Applied Soft Computing*, 2023, 135: 110040. (*Hot Paper, Highly Cited Paper, CAS Category I, Impact Factor: 7.2*)  
+3. Zhaowei Liu, Yixian Wang, Shenqiang Wang. **Heterogeneous Graphs Neural Networks based on Neighbor Relationship Filtering** [J]. *Expert Systems with Applications*, 2024, 239: 122489. (CAS Category I, Impact Factor: 7.5)  
+4. Zhaowei Liu, Dong Yang, Shenqiang Wang, Hang Su. **Adaptive Multi-channel Bayesian Graph Attention Network for IoT Transaction Security** [J]. *Digital Communications and Networks*, 2022. (CAS Category II, Impact Factor: 7.5)  
+5. Zhaowei Liu, Zongxing Zhao. **Multi-attribute E-CARGO Task Assignment Model Based on Adaptive Heterogeneous Residual Networks** [J]. *IEEE Transactions on Computational Social Systems*, 2024. (CAS Category II, Impact Factor: 4.5)  
+6. Rufei Gao, Zhaowei Liu*, Chenxi Jiang, Yingjie Wang, Shenqiang Wang, Pengda Wang. **BI-FedGNN: Federated Graph Neural Networks Framework based on Bayesian Inference** [J]. *Neural Networks*, 2024, 169: 143-153. (CAS Category I, Impact Factor: 6.0)  
+7. Dezhi Guo, Zhaowei Liu*, Ranran Li. **RegraphGAN: A Graph Generative Adversarial Network Model for Dynamic Network Anomaly Detection** [J]. *Neural Networks*, 2023, 166: 273-285. (CAS Category I, Impact Factor: 6.0)  
+8. Zongxing Zhao, Zhaowei Liu*, Yingjie Wang, Dong Yang, Weishuai Che. **RA-HGNN: Attribute Completion of Heterogeneous Graph Neural Networks based on Residual Attention Mechanism** [J]. *Expert Systems with Applications*, 2024, 243: 122945. (CAS Category I, Impact Factor: 7.5)  
+9. Pengda Wang, Mingjie Lu, Weiqing Yan, Dong Yang, Zhaowei Liu*. **Graph Structure Learning With Automatic Search of Hyperparameters Based on Genetic Programming** [J]. *IEEE Transactions on Emerging Topics in Computational Intelligence*, 2024, DOI: 10.1109/TETCI.2024.3386833. (CAS Category II, Impact Factor: 5.3)  
+10. Dong Yang, Zhaowei Liu*, Yingjie Wang, Jindong Xu, Weiqing Yan, Ranran Li. **Adaptive Multi-channel Bayesian Graph Neural Network** [J]. *Neurocomputing*, 2024, 575: 127260. (CAS Category II, Impact Factor: 5.5)
+
+Journal reviewer
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+1. IEEE Transactions on Mobile Computing (TMC)
+2. IEEE Transactions on Cloud Computing (TCC)  
+3. IEEE Transactions on Network Science and Engineering (TNSE)
+4. IEEE Transactions on Automation Science and Engineering (TASE) 
+5. IEEE Transactions on Cognitive and Developmental Systems (TCDS)  
+6. IEEE Transactions on Computational Social Systems (TCSS)
+7. Information Processing & Management (IP&M) 
+8. Expert Systems with Applications (ESWA) 
+9. Applied Soft Computing (ASOC) 
+10. Neural Networks (NN) 
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
 
 For more info
 ------

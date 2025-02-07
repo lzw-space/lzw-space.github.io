@@ -48,6 +48,7 @@ Journal reviewer
 9. Applied Soft Computing (ASOC) 
 10. Neural Networks (NN) 
 
+Visitors Log 
 ------
 <div style="text-align: center; margin-top: 20px;">
   <a href="https://info.flagcounter.com/" target="_blank">

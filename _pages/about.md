@@ -22,7 +22,7 @@ Projects Led and Participated In
 
 Representative Papers
 ======
-**Representative Publications**  
+ 
 
 1. Yixian Wang, Zhaowei Liu*, Jindong Xu, Weiqing Yan. **Heterogeneous Network Representation Learning Approach for Ethereum Identity Identification** [J]. *IEEE Transactions on Computational Social Systems*, 2023, 10(3): 890-899. (CAS Category II, Impact Factor: 4.5, Nominated for the *Andrew P. Sage Best Transactions Paper Award*)
 2. Zhaowei Liu, Dong Yang, Yingjie Wang, Mingjie Lu, Ranran Li. **EGNN: Graph Structure Learning based on Evolutionary Computation Helps More in Graph Neural Networks** [J]. *Applied Soft Computing*, 2023, 135: 110040. (*Hot Paper, Highly Cited Paper, CAS Category I, Impact Factor: 7.2*)

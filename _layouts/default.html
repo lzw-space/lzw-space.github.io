@@ -71,7 +71,6 @@ layout: compress
   </body>
 </html>
  -->
-
 ---
 layout: compress
 ---
@@ -85,24 +84,24 @@ layout: compress
     {% include head/custom.html %}
     <style>
       /* 自定义样式 */
-      .page__content {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-      }
-      .content-main {
-        flex: 1;
-        padding: 20px;
-        min-width: 70%;
-      }
-      .content-sidebar {
-        width: 25%;
-        margin-left: 20px;
+      .visitor-map {
+        position: relative; /* 保证定位相对于父容器 */
+        margin-top: 20px;
         text-align: center;
       }
+
       .visitor-map img {
         max-width: 100%;
         height: auto;
+      }
+
+      /* 访客地图专门右对齐 */
+      .right-section {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 20px;
       }
     </style>
   </head>
@@ -112,15 +111,12 @@ layout: compress
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-    <!-- 主页面内容布局 -->
+    <!-- 页面主要内容 -->
     <div class="page__content">
-      <!-- 左侧主要内容 -->
-      <div class="content-main">
-        {{ content }}
-      </div>
+      {{ content }}
 
-      <!-- 右侧访客地图 -->
-      <div class="content-sidebar">
+      <!-- 右侧访客地图放在文字下方 -->
+      <div class="right-section">
         <div class="visitor-map">
           <h2>Visitors</h2>
           <a href="https://info.flagcounter.com/" target="_blank">

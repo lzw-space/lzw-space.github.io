@@ -30,7 +30,7 @@ layout: compress
   </body>
 </html> -->
 
-
+<!-- 
 ---
 layout: compress
 ---
@@ -61,6 +61,78 @@ layout: compress
           </a>
         </div>
 
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
+</html>
+ -->
+
+---
+layout: compress
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+    <style>
+      /* 自定义样式 */
+      .page__content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .content-main {
+        flex: 1;
+        padding: 20px;
+        min-width: 70%;
+      }
+      .content-sidebar {
+        width: 25%;
+        margin-left: 20px;
+        text-align: center;
+      }
+      .visitor-map img {
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    <!-- 主页面内容布局 -->
+    <div class="page__content">
+      <!-- 左侧主要内容 -->
+      <div class="content-main">
+        {{ content }}
+      </div>
+
+      <!-- 右侧访客地图 -->
+      <div class="content-sidebar">
+        <div class="visitor-map">
+          <h2>Visitors</h2>
+          <a href="https://info.flagcounter.com/" target="_blank">
+            <img src="https://s01.flagcounter.com/map/eC8X/size_l/txt_000000/border_FFFFFF/pageviews_1/viewers_0/flags_20/" 
+                 alt="Visitor Map" border="0">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="page__footer">
+      <footer>
         {% include footer/custom.html %}
         {% include footer.html %}
       </footer>

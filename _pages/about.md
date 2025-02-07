@@ -1,13 +1,17 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Primary Research Areas"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+My primary research areas include large models, graph machine learning, network security, blockchain, computer vision, and human-computer (robot) interaction. More broadly, my work encompasses machine learning, deep learning, data mining, and their applications in intelligent systems, with a particular focus on developing efficient and scalable models to handle complex structured data and optimizing their applications in security, distributed computing, and intelligent interaction.  
+
+Specifically, I have conducted in-depth research on heterogeneous graph learning, probabilistic graphical models, and federated learning, proposing a series of modeling methods for heterogeneous graph data, optimizing cross-domain information fusion and knowledge distillation strategies, and exploring optimization mechanisms for heterogeneous graphs in federated environments. Additionally, I have investigated graph learning-based blockchain security analysis and task allocation optimization methods, constructing transaction graphs to accurately detect abnormal transactions and integrating graph attention mechanisms to enhance the intelligence of task scheduling. Meanwhile, I focus on multimodal information fusion in computer vision and human-computer interaction, exploring how to leverage multi-source data such as vision and speech to enhance intelligent systems' understanding and decision-making capabilities.  
+
+My recent research focuses on integrating multimodal data to optimize the applications of graph machine learning and large models in network security, computer vision, and blockchain, including efficient heterogeneous graph federated learning, cross-modal emotion recognition, and intelligent task scheduling optimization to address increasingly complex real-world scenarios.
 
 A data-driven personal website
 ======

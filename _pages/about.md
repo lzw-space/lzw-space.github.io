@@ -8,16 +8,17 @@ redirect_from:
 ---
 
 My primary research areas include large models, graph machine learning, network security, blockchain, computer vision, and human-computer (robot) interaction. More broadly, my work encompasses machine learning, deep learning, data mining, and their applications in intelligent systems, with a particular focus on developing efficient and scalable models to handle complex structured data and optimizing their applications in security, distributed computing, and intelligent interaction.  
-
 Specifically, I have conducted in-depth research on heterogeneous graph learning, probabilistic graphical models, and federated learning, proposing a series of modeling methods for heterogeneous graph data, optimizing cross-domain information fusion and knowledge distillation strategies, and exploring optimization mechanisms for heterogeneous graphs in federated environments. Additionally, I have investigated graph learning-based blockchain security analysis and task allocation optimization methods, constructing transaction graphs to accurately detect abnormal transactions and integrating graph attention mechanisms to enhance the intelligence of task scheduling. Meanwhile, I focus on multimodal information fusion in computer vision and human-computer interaction, exploring how to leverage multi-source data such as vision and speech to enhance intelligent systems' understanding and decision-making capabilities.  
-
 My recent research focuses on integrating multimodal data to optimize the applications of graph machine learning and large models in network security, computer vision, and blockchain, including efficient heterogeneous graph federated learning, cross-modal emotion recognition, and intelligent task scheduling optimization to address increasingly complex real-world scenarios.
 
-A data-driven personal website
+Projects Led and Participated In
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
-
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+1.Shandong Provincial Key R&D Program: Construction and Application of a Marine Ecological Big Data Cloud Storage Platform for Shandong's Coastal Waters (Completed), Principal Investigator.
+1.Shandong Provincial Natural Science Youth Fund Project: Research on CP-nets and Their Aggregation (Completed), Principal Investigator.
+1.Shandong Provincial Key R&D Program: Visual Simulation and Computational Evolutionary Game Theory (Ongoing), Technical Lead.
+1.Yantai City University-Local Integration Project: Digital Twin Service Platform for Marine Environment and Unmanned Equipment (Ongoing), Technical Lead.
+1.Yantai Major Innovation Project: Multimodal Data and Mobile Application AI Security Monitoring Platform for Cyberspace (Ongoing), Project Lead.
+1.Yantai Science and Technology Development Plan: Research and Development of Key Technologies for Human-Machine Collaboration in Industrial Internet Scenarios Driven by Intelligent Vision (Ongoing), Principal Investigator.
 
 Getting started
 ======

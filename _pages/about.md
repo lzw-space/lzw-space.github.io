@@ -49,4 +49,9 @@ Journal reviewer
 10. Neural Networks (NN) 
 
 
-
+<div style="text-align: center; margin-top: 20px;">
+  <a href="https://info.flagcounter.com/" target="_blank">
+    <img src="https://s01.flagcounter.com/map/eC8X/size_l/txt_000000/border_FFFFFF/pageviews_1/viewers_0/flags_20/" 
+         alt="Visitor Map" border="0" style="max-width: 100%; height: auto;">
+  </a>
+</div>

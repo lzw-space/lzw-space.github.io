@@ -83,25 +83,14 @@ layout: compress
     {% include head.html %}
     {% include head/custom.html %}
     <style>
-      /* 自定义样式 */
+      /* 访客地图样式：右对齐且最大宽度限制 */
       .visitor-map {
-        position: relative; /* 保证定位相对于父容器 */
+        text-align: right;
         margin-top: 20px;
-        text-align: center;
       }
-
       .visitor-map img {
-        max-width: 100%;
+        max-width: 300px;  /* 根据需要调整宽度 */
         height: auto;
-      }
-
-      /* 访客地图专门右对齐 */
-      .right-section {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        margin-top: 20px;
       }
     </style>
   </head>
@@ -115,18 +104,17 @@ layout: compress
     <div class="page__content">
       {{ content }}
 
-      <!-- 右侧访客地图放在文字下方 -->
-      <div class="right-section">
-        <div class="visitor-map">
-          <h2>Visitors</h2>
-          <a href="https://info.flagcounter.com/" target="_blank">
-            <img src="https://s01.flagcounter.com/map/eC8X/size_l/txt_000000/border_FFFFFF/pageviews_1/viewers_0/flags_20/" 
-                 alt="Visitor Map" border="0">
-          </a>
-        </div>
+      <!-- 在主要内容区域后添加访客地图，确保只添加一次 -->
+      <div class="visitor-map">
+        <h2>Visitors</h2>
+        <a href="https://info.flagcounter.com/" target="_blank">
+          <img src="https://s01.flagcounter.com/map/eC8X/size_l/txt_000000/border_FFFFFF/pageviews_1/viewers_0/flags_20/" 
+               alt="Visitor Map" border="0">
+        </a>
       </div>
     </div>
 
+    <!-- 保留原有页脚，不再重复添加访客地图 -->
     <div class="page__footer">
       <footer>
         {% include footer/custom.html %}

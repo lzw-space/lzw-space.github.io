@@ -77,7 +77,7 @@ layout: compress
 
 {% include base_path %}
  -->
-<!doctype html>
+<!-- <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
     {% include head.html %}
@@ -100,12 +100,11 @@ layout: compress
     {% include browser-upgrade.html %}
     {% include masthead.html %}
 
-    <!-- 页面主要内容区域 -->
     <div class="page__content">
       {{ content }}
-      <!-- 在主要内容后添加访客地图 -->
+
       <div class="visitor-map">
-<!--         <h2>Visitors</h2> -->
+
         <a href="https://info.flagcounter.com/" target="_blank">
           <img src="https://s01.flagcounter.com/map/eC8X/size_l/txt_000000/border_FFFFFF/pageviews_1/viewers_0/flags_20/" 
                alt="Visitor Map" border="0">
@@ -113,7 +112,55 @@ layout: compress
       </div>
     </div>
 
-    <!-- 页脚部分（无访客地图重复代码） -->
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
+</html>
+ -->
+ ---
+layout: compress
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body>
+
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    <!-- 页面整体布局 -->
+    <div class="page-container">
+      
+      <!-- 主要内容区域 -->
+      <div class="page-content">
+        {{ content }}
+      </div>
+
+      <!-- 访客地图 -->
+      <div class="visitor-map">
+<!--         <h2>Visitors</h2> -->
+        <a href="https://info.flagcounter.com/" target="_blank">
+          <img src="https://s01.flagcounter.com/map/eC8X/size_l/txt_000000/border_FFFFFF/pageviews_1/viewers_0/flags_20/" 
+               alt="Visitor Map" border="0">
+        </a>
+      </div>
+      
+    </div>
+
     <div class="page__footer">
       <footer>
         {% include footer/custom.html %}

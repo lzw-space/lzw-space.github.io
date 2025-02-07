@@ -36,7 +36,7 @@ Representative Papers
 10. Dong Yang, Zhaowei Liu*, Yingjie Wang, Jindong Xu, Weiqing Yan, Ranran Li. **Adaptive Multi-channel Bayesian Graph Neural Network** [J]. *Neurocomputing*, 2024, 575: 127260. (CAS Category II, Impact Factor: 5.5)
 
 Journal reviewer
-------
+======
 1. IEEE Transactions on Mobile Computing (TMC)
 2. IEEE Transactions on Cloud Computing (TCC)  
 3. IEEE Transactions on Network Science and Engineering (TNSE)
@@ -49,7 +49,7 @@ Journal reviewer
 10. Neural Networks (NN) 
 
 Visitors Log 
-------
+======
 <div style="text-align: center; margin-top: 20px;">
   <a href="https://info.flagcounter.com/" target="_blank">
     <img src="https://s01.flagcounter.com/map/eC8X/size_l/txt_000000/border_FFFFFF/pageviews_1/viewers_0/flags_20/" 
